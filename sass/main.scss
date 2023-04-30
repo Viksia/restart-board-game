@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #f9f0f2;
+	// background-color: 6e2921;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	// border: 5px solid #be5b70;
+	min-height: 100vh;
+}
+
+.background-image {
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	width: auto;
+	height: 100%;
+	z-index: -1;
+}
+
+/* Хедер */
+
+.aside {
+	// position: relative;
+	display: flex;
+
+	/* Стили для фішок */
+
+	.players {
+		margin-top: 38px;
+
+		.player {
+			position: absolute;
+			z-index: 200;
+			cursor: pointer;
+			background-color: #04142b;
+			border-radius: 50%;
+		}
+
+		#avat1 {
+			left: 100px;
+			// fill: #d70a12;
+			fill: #50313e;
+		}
+		#avat2 {
+			left: 150px;
+			// fill: #f3b40d;
+			fill: #6179a5;
+		}
+		#avat3 {
+			left: 200px;
+			// fill: #199333;
+			fill: #415c51;
+		}
+		#avat4 {
+			left: 250px;
+			// fill: #0b5394;
+			fill: #6c9aa7;
+		}
+		#avat5 {
+			left: 300px;
+			// fill: #d94f84;
+			fill: #486279;
+		}
+	}
+}
